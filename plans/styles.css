@@ -361,12 +361,13 @@ header {
 }
 
 
-.question {
-  width: 0.75rem;
-  height: 0.75rem;
-  display: inline-flex;
-  align-items: center;
-}
+  .question {
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    align-items: center;
+  }
+
 
 .horizontal-line {
     width: 100%; 
@@ -374,3 +375,31 @@ header {
     background-color: gray;
     margin-bottom: 10px;
 }
+
+ .location-button {
+      text-decoration: none;
+  }
+
+  .location-option {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #007BFF; 
+      border-radius: 8px;       
+      color: white;             
+      transition: background-color 0.3s; 
+  }
+
+  .location-option:hover {
+      background-color: #0056b3;
+  }
+
+  .flag-icon {
+      width: 24px;
+      height: auto;
+      margin-right: 10px;
+  }
+
+  .location-text {
+      font-size: 16px;
+  }

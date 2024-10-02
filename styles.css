@@ -51,7 +51,7 @@ header {
 }
 
 .logo {
-  padding-left: 20px; 
+  padding-left: 20px;
 }
 
 .logo img {
@@ -143,10 +143,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; 
 }
 
 .hero-text {
   flex: 1;
+  min-width: 300px; 
 }
 
 .hero-text h1 {
@@ -158,6 +160,7 @@ header {
 .panel-demo {
   flex: 1;
   text-align: right;
+  min-width: 300px; 
 }
 
 .panel-demo img {
@@ -186,6 +189,7 @@ header {
 .about-us .buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap; 
   gap: 20px;
 }
 
@@ -226,7 +230,7 @@ header {
 
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
   gap: 30px;
 }
 
@@ -264,11 +268,16 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; 
+  text-align: center; 
 }
 
 .footer-links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin-bottom: 20px;
 }
 
 .footer-links a {
@@ -384,5 +393,32 @@ footer {
   .nav-links .nav-item,
   .dropbtn {
     margin: 0 10px;
+  }
+
+  #big-number {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .about-us h2 {
+    font-size: 28px;
+  }
+
+  .about-us p {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  #big-number h1 {
+    font-size: 50px;
   }
 }

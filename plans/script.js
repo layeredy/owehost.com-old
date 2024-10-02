@@ -1,3 +1,12 @@
+const currentTheme = 'dark'; 
+
+document.documentElement.setAttribute('data-theme', currentTheme);
+localStorage.setItem('theme', currentTheme);
+
+// Removed light mode because it doesn't work idk why
+
+
+
 function openModal(modalId, plan) {
   document.getElementById(modalId).style.display = "block";
   console.log(`ID: ${modalId}`)
