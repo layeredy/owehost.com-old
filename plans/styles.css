@@ -335,7 +335,7 @@ header {
   align-items: center;
   justify-content: center; 
   padding: 10px 20px;
-  background-color: #007BFF; 
+  background-color: var(--accent-color); 
   border-radius: 8px;       
   color: white;             
   transition: background-color 0.3s; 
@@ -343,7 +343,7 @@ header {
   margin-top: 20px; 
 }
 .location-option:hover {
-  background-color: #0056b3;
+  background-color: var(--accent-color);
 }
 .flag-icon {
   width: 24px;

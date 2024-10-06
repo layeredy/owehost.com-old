@@ -361,6 +361,7 @@ footer {
 
   .feature-grid {
     grid-template-columns: 1fr;
+  } 
 
   .footer-content {
     flex-direction: column;
@@ -376,8 +377,8 @@ footer {
     margin-top: 20px;
   }
 
-  #big-number h1 {
-    font-size: 60px;
+  #big-number {
+    display: none;
   }
 
   .navbar-container {
@@ -394,8 +395,8 @@ footer {
     margin: 0 10px;
   }
 
-  #big-number {
-    display: none;
+  #big-number h1 {
+    font-size: 60px;
   }
 }
 
