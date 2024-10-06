@@ -422,3 +422,8 @@ footer {
     font-size: 50px;
   }
 }
+.small-text {
+    font-size: 0.75rem;
+    color: #6c757d; 
+    margin-top: 5px;
+}
