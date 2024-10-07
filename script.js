@@ -9,7 +9,7 @@ localStorage.setItem('theme', currentTheme);
 // Typing effect
 document.addEventListener('DOMContentLoaded', function () {
     const element = document.querySelector('.text-lowercase');
-    const words = ["Minecraft server", "Discord bot", "Website", "VPS"];
+    const words = ["Minecraft Server"];
     let index = 0;
     let charIndex = 0;
     const typingSpeed = 150;
