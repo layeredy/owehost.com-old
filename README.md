@@ -1,6 +1,6 @@
 [![layeredy](https://cdn.owehost.com/logo-word-purple.png)](https://owehost.com)
 
-# Website for Owehost (v-1.0.0)
+# Website for Owehost 
 This is the website for Owehost, the server host by [Layeredy](https://layeredy.com)
 
 Feel free to use this site as a template or to suggest improvements. 
