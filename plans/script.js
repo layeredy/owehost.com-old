@@ -11,19 +11,8 @@ function openModal(modalId, plan) {
   document.getElementById(modalId).style.display = "block";
   console.log(`ID: ${modalId}`)
   console.log(`Plan: ${plan}`)
-  if(`${plan}` == `2GB`) {
-      document.querySelector('.location-link').href = 'https://billing.layeredy.com/index.php?rp=/store/owehost-game/2gb';
-  } else if(`${plan}` == `5GB`) {
-      document.querySelector('.location-link').href = 'https://billing.layeredy.com/index.php?rp=/store/owehost-game/5gb';
-  } else if(`${plan}` == `8GB`) {
-      document.querySelector('.location-link').href = 'https://billing.layeredy.com/index.php?rp=/store/owehost-game/8gb';
-  } else if(`${plan}` == `10GB`) {
-      document.querySelector('.location-link').href = 'https://billing.layeredy.com/index.php?rp=/store/owehost-game/10gb';
-  } else if(`${plan}` == `12GB`) {
-      document.querySelector('.location-link').href = 'https://billing.layeredy.com/index.php?rp=/store/owehost-game/12gb';
-  } else if(`${plan}` == `16GB`) {
-      document.querySelector('.location-link').href = 'https://billing.layeredy.com/index.php?rp=/store/owehost-game/16gb';
-  }
+      document.querySelector('.location-link-canada').href = `https://billing.layeredy.com/index.php?rp=/store/owehost-game/${plan}`;
+      document.querySelector('.location-link-usa').href = `https://billing.layeredy.com/index.php?rp=/store/owehost-game/${plan}`;
 }
 
 function closeModal(modalId) {
